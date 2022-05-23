@@ -12,8 +12,8 @@ html {
 body {
     font-family: Open Sans, sans-serif;
     font-weight: regular;
-    color: #3a3a3a;
-    font-size: 16px;
+    color: #333333;
+    font-size: 18px;
 }
 
 
@@ -21,7 +21,7 @@ h1,
 h2,
 h3 {
     font-family: lato, sans-serif;
-    color: #958270;
+    color: #333333;
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: 4px;
@@ -42,7 +42,7 @@ nav {
 #logo {
     font-size: 250%;
     text-decoration: none;
-    color: #3a3a3a;
+    color: #333333;
     display: inline;
 }
 
@@ -61,19 +61,17 @@ nav a:not(:first-of-type) {
 }
 
 nav {
+    
     text-align: center;
-     right: 1%;
-    top: 8%;
-    margin-right: 2%;
     display: flex;
 
-}
+        }
 
 
 #menu>a {
 
     font-size: 100%;
-    color: #3a3a3a;
+    color: #333333;
     font-weight: bold;
     margin-right: 5px;
 }
@@ -95,6 +93,7 @@ nav {
 }
 
 /* style the paragrph  promise*/
+
 #promise-title {
 
     font-size: 32px;
@@ -104,27 +103,47 @@ nav {
 }
 #promise{
     text-align: center;
+     background-color: rgba(0,0,0,.2);
+    width: 40%;
+    margin:auto;
     margin-top: 40px;
-
+    margin-left: 40px;
+    
     }
    
-#promise p{
+p{
+    color:#012229;
     letter-spacing: 4px;
     font-weight: 900;
     text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: large;
     
-    
-}
+        }
+
+    #marker{
+        color:#a9621f;
+        font-weight: bold;
+    }
+
+    #capital{
+        text-transform: uppercase;
+        color:#333333
+        f
+    }
+/* style the footer*/
 
 
 
-footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    height: 150px;
+.footer-frame{
+position: fixed;
+bottom: 0;
+right: 0;
+width: 100%;
+text-align: center;
+ line-height: 50px;
+ 
 }
 
 .social-media {
@@ -135,5 +154,7 @@ footer {
     font-size: 150%;
     margin: 1%;
     padding: 4%;
-    color: blue;
+    color:#090446;
 }
+
+
