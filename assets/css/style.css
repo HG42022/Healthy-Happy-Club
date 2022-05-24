@@ -9,27 +9,17 @@ html {
     border: none;
 }
 
-body {
-    font-family: Open Sans, sans-serif;
-    font-weight: regular;
-    color: #333333;
-    font-size: 18px;
-}
-
 
 h1,
 h2,
 h3 {
     font-family: lato, sans-serif;
-    color: #333333;
+
     text-transform: uppercase;
     font-style: normal;
     letter-spacing: 4px;
 }
 
-h1 {
-    font-size: 180%;
-}
 
 h2 {
     font-size: 140%;
@@ -69,16 +59,26 @@ nav {
 
 
 #menu>a {
-
-    font-size: 100%;
-    color: #333333;
-    font-weight: bold;
     margin-right: 5px;
 }
 
-/* style the hero image*/
+/* style the container for all hero-images we have in differnt files*/
 
-.container-hero {
+.container-hero-pics {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* style the hero image for index file*/
+#hero-home {
     height: 100vh;
     width: 100%;
     position: absolute;
@@ -91,6 +91,23 @@ nav {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* style the hero image for happy file*/
+#happy-home {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-image: url("../images/happy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 
 /* style the paragrph  promise*/
 
@@ -184,7 +201,7 @@ a {
     text-decoration: none;
 }
 
-/* style the form*/
+/* style the form paragraphs*/
 #form {
 
     color: #303030;
@@ -195,3 +212,7 @@ a {
     padding-bottom: 20px;
     font-size: large;
 }
+
+
+/* For larger to medium screens size from 1200px wide and down */
+
