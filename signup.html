@@ -11,7 +11,57 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Signup</title>
 </head>
+
+<!--the form-->
+
 <body>
-    
+    <p id="form">Please Fill The Form!</p>
+
+    <form method="post" action="https://sendhere.net">
+
+        <!--fieldset for user details-->
+        <fieldset>
+            <legend> User Details</legend>
+            <label for="prenom">First Name:</label>
+            <input id="prenom" name="prenom" type="text" required>
+            <br>
+            <label for="nom">Last Name:</label>
+            <input id="nom" name="nom" type="text" required>
+        </fieldset>
+        <br><br>
+        <!--fieldset for contact info-->
+        <fieldset>
+            <legend> Contact information</legend>
+            <label for="username">Username:</label>
+            <input id="username" name="username" type="text" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="text" placeholder="Enter your password" required>
+
+            <label for="remember">Remember Me</label>
+            <input type="checkbox" id="remember" name="remember" value="remember">
+
+        </fieldset>
+        <br>
+        <label for="feedback"> Feedback</label>
+        <br>
+        <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Feedback"></textarea>
+
+        <button type="submit"> <strong> Submit</strong></button>
+        <button type="reset"> <strong> Reset</strong></button>
+        <br><br>
+
+        <p id="form">Your Opinion is IMPORTANT!</p>
+        <fieldset>
+            <legend> Did you enjoy visiting our website?
+            </legend>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="color" value="yes" />
+            <label for="no">No</label>
+            <input type="radio" id="no" name="color" value="no" />
+        </fieldset>
+    </form>
+
 </body>
+
 </html>
