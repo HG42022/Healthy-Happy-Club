@@ -101,6 +101,7 @@ nav {
     margin-top: 25px;
         
 }
+
 #promise{
     text-align: center;
      background-color: rgba(0,0,0,.2);
@@ -129,20 +130,21 @@ p{
 
     #capital{
         text-transform: uppercase;
-        color:#333333
-        f
+        color:#333333;
+        
     }
+
+
+
+
 /* style the footer*/
-
-
-
 .footer-frame{
 position: fixed;
-bottom: 0;
-right: 0;
+bottom: -10%;
+left: 20%;
 width: 100%;
 text-align: center;
- line-height: 50px;
+line-height: 50px;
  
 }
 
@@ -157,4 +159,25 @@ text-align: center;
     color:#090446;
 }
 
+/* style the clickable rounds*/
 
+.round-box{
+    background-color: #958270;
+    height:10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+}
+.container-box{
+    display: flex;
+    margin-top: 20rem;
+}
+.circle-link{
+    color: #000000;
+    margin:auto;
+}
+
+a{
+    text-decoration: none;
+}
